@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["esnext", "DOM"],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowImportingTsExtensions": true,
+    "isolatedModules": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "strictNullChecks": true,
+    "resolveJsonModule": true,
+    "noEmit": true,
+    "types": [
+      "vite/client"
+    ]
+  }
+}
